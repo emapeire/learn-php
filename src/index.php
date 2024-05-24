@@ -1,9 +1,9 @@
 <?php
-require_once './src/utils/data_fetcher.php';
+require_once './utils/data_fetcher.php';
 
 use App\Utils\DataFetcher;
 
-$config = require_once './src/config/index.php';
+$config = require_once './config/index.php';
 
 $dataFetcher = new DataFetcher($config);
 
