@@ -3,7 +3,7 @@ require_once './src/utils/data_fetcher.php';
 
 use App\Utils\DataFetcher;
 
-$config = require_once './src/config/index.php';
+$config = require_once './src/config/api_url.php';
 
 $dataFetcher = new DataFetcher($config);
 
